@@ -4,6 +4,7 @@ include 'db.php';
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+// ghgh
 
 /* ADMIN CHECK */
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'admin') {
